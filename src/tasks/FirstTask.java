@@ -1,23 +1,18 @@
 package tasks;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class FirstTask {
+public class FirstTask implements Reader {
 
     public void solve() {
-        BufferedReader reader =
-                new BufferedReader(
-                        new InputStreamReader(System.in));
         System.out.println(
                 "N = "
         );
         try {
             int n = Integer.parseInt(
                     reader.readLine()); // will throw error if string
-            ArrayList<Double> numberList = readNumbers(n, reader);
+            ArrayList<Double> numberList = readNumbers(n);
             System.out.println(
                     "Min: " + getMin(numberList)
             );
@@ -28,7 +23,7 @@ public class FirstTask {
         }
     }
 
-    final ArrayList<Double> readNumbers(int value, BufferedReader reader) {
+    final ArrayList<Double> readNumbers(int value) {
         double number;
         ArrayList<Double> numberList = new ArrayList<>();
         for (int i = 0; i < value; i++) {
@@ -48,6 +43,8 @@ public class FirstTask {
     }
 
     final double getMin(ArrayList<Double> numberList) {
-        return Collections.min(numberList);
+        return Collections.min(
+                numberList
+        );
     }
 }

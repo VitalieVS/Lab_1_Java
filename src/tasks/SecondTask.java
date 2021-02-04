@@ -1,10 +1,8 @@
 package tasks;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-public class SecondTask {
+public class SecondTask implements Reader {
     public void solve() {
         try {
             ArrayList<Integer> numberList =
@@ -25,9 +23,6 @@ public class SecondTask {
 
     final ArrayList<Integer> readNumbers() {
         ArrayList<Integer> numberList = new ArrayList<>();
-        BufferedReader reader =
-                new BufferedReader(
-                        new InputStreamReader(System.in));
         int number = 5; //giving random value, it will not be added.
         do {
             try {

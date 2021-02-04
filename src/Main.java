@@ -9,5 +9,6 @@ public class Main {
         SecondTask secondTask = new SecondTask();
         secondTask.solve();
 
+
     }
 }
