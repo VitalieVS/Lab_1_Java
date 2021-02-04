@@ -1,4 +1,5 @@
 import tasks.FirstTask;
+import tasks.FourthTask;
 import tasks.SecondTask;
 import tasks.ThirdTask;
 
@@ -8,10 +9,13 @@ public class Main {
         firstTask.solve();
 
         SecondTask secondTask = new SecondTask();
-        secondTask.solve();*/
+        secondTask.solve();
 
         ThirdTask thirdTask = new ThirdTask();
         thirdTask.solveStringVersion();
+
+        FourthTask fourthTask = new FourthTask();
+        fourthTask.solve();*/
 
     }
 }
