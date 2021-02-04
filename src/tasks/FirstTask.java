@@ -9,7 +9,8 @@ public class FirstTask {
 
     public void solve() {
         BufferedReader reader =
-                new BufferedReader(new InputStreamReader(System.in));
+                new BufferedReader(
+                        new InputStreamReader(System.in));
         System.out.println(
                 "N = "
         );
