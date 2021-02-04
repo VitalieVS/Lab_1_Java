@@ -1,7 +1,4 @@
-import tasks.FirstTask;
-import tasks.FourthTask;
-import tasks.SecondTask;
-import tasks.ThirdTask;
+import tasks.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,6 +13,9 @@ public class Main {
 
         FourthTask fourthTask = new FourthTask();
         fourthTask.solve();*/
+
+        FifthTask fifthTask = new FifthTask();
+        fifthTask.solve();
 
     }
 }
