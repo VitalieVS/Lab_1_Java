@@ -2,7 +2,7 @@ import tasks.*;
 
 public class Main {
     public static void main(String[] args) {
-        /*FirstTask firstTask = new FirstTask();
+        FirstTask firstTask = new FirstTask();
         firstTask.solve();
 
         SecondTask secondTask = new SecondTask();
@@ -12,7 +12,7 @@ public class Main {
         thirdTask.solveStringVersion();
 
         FourthTask fourthTask = new FourthTask();
-        fourthTask.solve();*/
+        fourthTask.solve();
 
         FifthTask fifthTask = new FifthTask();
         fifthTask.solve();
